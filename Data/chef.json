@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "chefPicture": "https://example.com/chef1.jpg",
+    "chefName": "John Smith",
+    "yearsOfExperience": 10,
+    "numberOfRecipes": 50,
+    "likes": 5000,
+    "descriptionForFoods": "Chef John specializes in Italian cuisine, with a focus on pasta dishes. His signature dish is a creamy carbonara that's sure to please any pasta lover."
+  },
+  {
+    "id": 2,
+    "chefPicture": "https://example.com/chef2.jpg",
+    "chefName": "Emily Lee",
+    "yearsOfExperience": 8,
+    "numberOfRecipes": 40,
+    "likes": 4500,
+    "descriptionForFoods": "Chef Emily is known for her Asian fusion dishes, blending traditional Korean flavors with modern cooking techniques. Her most popular dish is a spicy kimchi fried rice with a poached egg on top."
+  },
+  {
+    "id": 3,
+    "chefPicture": "https://example.com/chef3.jpg",
+    "chefName": "Carlos Rodriguez",
+    "yearsOfExperience": 15,
+    "numberOfRecipes": 75,
+    "likes": 6000,
+    "descriptionForFoods": "Chef Carlos grew up in Mexico and specializes in authentic Mexican cuisine. He makes a mean guacamole and his carne asada tacos are to die for."
+  },
+  {
+    "id": 4,
+    "chefPicture": "https://example.com/chef4.jpg",
+    "chefName": "Sara Patel",
+    "yearsOfExperience": 5,
+    "numberOfRecipes": 30,
+    "likes": 4000,
+    "descriptionForFoods": "Chef Sara is a vegetarian and specializes in plant-based cuisine. Her dishes are colorful, flavorful, and packed with nutrients. Her roasted vegetable lasagna is a customer favorite."
+  },
+  {
+    "id": 5,
+    "chefPicture": "https://example.com/chef5.jpg",
+    "chefName": "Alex Kim",
+    "yearsOfExperience": 12,
+    "numberOfRecipes": 60,
+    "likes": 5500,
+    "descriptionForFoods": "Chef Alex is a sushi master, with over a decade of experience working in top sushi restaurants around the world. His omakase is a work of art, featuring the freshest fish and most creative flavor combinations."
+  },
+  {
+    "id": 6,
+    "chefPicture": "https://example.com/chef6.jpg",
+    "chefName": "Maria Hernandez",
+    "yearsOfExperience": 7,
+    "numberOfRecipes": 35,
+    "likes": 4200,
+    "descriptionForFoods": "Chef Maria is a pastry chef who specializes in French desserts. Her macarons are delicate and delicious, and her chocolate croissants are a morning staple for many of her customers."
+  }
+]
