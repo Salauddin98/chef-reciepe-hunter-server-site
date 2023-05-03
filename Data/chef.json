@@ -1,56 +1,297 @@
 [
   {
     "id": 1,
-    "chefPicture": "https://example.com/chef1.jpg",
-    "chefName": "John Smith",
-    "yearsOfExperience": 10,
-    "numberOfRecipes": 50,
-    "likes": 5000,
-    "descriptionForFoods": "Chef John specializes in Italian cuisine, with a focus on pasta dishes. His signature dish is a creamy carbonara that's sure to please any pasta lover."
+    "name": "Chef Alice",
+    "experience": 8,
+    "recipes": [
+      {
+        "recipeName": "Pesto Pasta",
+        "ingredients": [
+          "1 lb pasta",
+          "2 cups fresh basil leaves",
+          "1/2 cup grated Parmesan cheese",
+          "1/2 cup olive oil",
+          "3 cloves garlic"
+        ],
+        "cookingMethod": "Cook pasta according to package instructions. While pasta is cooking, combine basil, Parmesan cheese, olive oil, and garlic in a food processor and blend until smooth. Drain pasta and toss with pesto sauce. Serve immediately.",
+        "ratings": 4.5,
+        "img": "https://i.ibb.co/F5MmgSb/food3.png"
+      },
+      {
+        "recipeName": "Margherita Pizza",
+        "ingredients": [
+          "1 pizza crust",
+          "1/2 cup tomato sauce",
+          "1 cup shredded mozzarella cheese",
+          "1/4 cup chopped fresh basil"
+        ],
+        "cookingMethod": "Preheat oven to 450°F. Spread tomato sauce over pizza crust. Top with mozzarella cheese and chopped basil. Bake for 10-12 minutes or until crust is golden brown.",
+        "ratings": 4.7,
+        "img": "https://i.ibb.co/CBcdvjk/food1.png"
+      },
+      {
+        "recipeName": "Tiramisu",
+        "ingredients": [
+          "1 cup heavy cream",
+          "1/4 cup sugar",
+          "1/4 cup espresso",
+          "1/4 cup Kahlua",
+          "1 cup mascarpone cheese",
+          "24 ladyfingers"
+        ],
+        "cookingMethod": "In a large bowl, beat heavy cream and sugar until stiff peaks form. In a separate bowl, combine espresso and Kahlua. Dip ladyfingers in espresso mixture and layer in a 9x13 inch dish. Spread mascarpone cheese over ladyfingers. Top with whipped cream. Chill for at least 2 hours before serving.",
+        "ratings": 4.9,
+        "img": "https://i.ibb.co/6Xzgzzd/food2.png"
+      }
+    ],
+    "likes": 132,
+    "picture": "https://i.ibb.co/NLQwQk6/chef-4.png",
+    "description": "Chef Alice is a seasoned chef with experience working in some of the world's top kitchens. She specializes in creating innovative dishes that showcase the flavors of fresh, locally-sourced ingredients."
   },
+
   {
     "id": 2,
-    "chefPicture": "https://example.com/chef2.jpg",
-    "chefName": "Emily Lee",
-    "yearsOfExperience": 8,
-    "numberOfRecipes": 40,
-    "likes": 4500,
-    "descriptionForFoods": "Chef Emily is known for her Asian fusion dishes, blending traditional Korean flavors with modern cooking techniques. Her most popular dish is a spicy kimchi fried rice with a poached egg on top."
+    "name": "Chef Bob",
+    "experience": 12,
+    "recipes": [
+      {
+        "recipeName": "Pesto Pasta",
+        "ingredients": [
+          "1 lb pasta",
+          "2 cups fresh basil leaves",
+          "1/2 cup grated Parmesan cheese",
+          "1/2 cup olive oil",
+          "3 cloves garlic"
+        ],
+        "cookingMethod": "Cook pasta according to package instructions. While pasta is cooking, combine basil, Parmesan cheese, olive oil, and garlic in a food processor and blend until smooth. Drain pasta and toss with pesto sauce. Serve immediately.",
+        "ratings": 4.5,
+        "img": "https://i.ibb.co/F5MmgSb/food3.png"
+      },
+      {
+        "recipeName": "Margherita Pizza",
+        "ingredients": [
+          "1 pizza crust",
+          "1/2 cup tomato sauce",
+          "1 cup shredded mozzarella cheese",
+          "1/4 cup chopped fresh basil"
+        ],
+        "cookingMethod": "Preheat oven to 450°F. Spread tomato sauce over pizza crust. Top with mozzarella cheese and chopped basil. Bake for 10-12 minutes or until crust is golden brown.",
+        "ratings": 4.7,
+        "img": "https://i.ibb.co/CBcdvjk/food1.png"
+      },
+      {
+        "recipeName": "Tiramisu",
+        "ingredients": [
+          "1 cup heavy cream",
+          "1/4 cup sugar",
+          "1/4 cup espresso",
+          "1/4 cup Kahlua",
+          "1 cup mascarpone cheese",
+          "24 ladyfingers"
+        ],
+        "cookingMethod": "In a large bowl, beat heavy cream and sugar until stiff peaks form. In a separate bowl, combine espresso and Kahlua. Dip ladyfingers in espresso mixture and layer in a 9x13 inch dish. Spread mascarpone cheese over ladyfingers. Top with whipped cream. Chill for at least 2 hours before serving.",
+        "ratings": 4.9,
+        "img": "https://i.ibb.co/6Xzgzzd/food2.png"
+      }
+    ],
+    "likes": 224,
+    "picture": "https://i.ibb.co/QXJd84d/chef-5.png",
+    "description": "Chef Bob is a master of classic French cuisine, with a particular talent for creating rich, complex sauces. He has trained under some of the most renowned chefs in Europe and brings his wealth of experience to every dish he creates."
   },
   {
     "id": 3,
-    "chefPicture": "https://example.com/chef3.jpg",
-    "chefName": "Carlos Rodriguez",
-    "yearsOfExperience": 15,
-    "numberOfRecipes": 75,
-    "likes": 6000,
-    "descriptionForFoods": "Chef Carlos grew up in Mexico and specializes in authentic Mexican cuisine. He makes a mean guacamole and his carne asada tacos are to die for."
+    "name": "Chef Charlie",
+    "experience": 5,
+    "recipes": [
+      {
+        "recipeName": "Pesto Pasta",
+        "ingredients": [
+          "1 lb pasta",
+          "2 cups fresh basil leaves",
+          "1/2 cup grated Parmesan cheese",
+          "1/2 cup olive oil",
+          "3 cloves garlic"
+        ],
+        "cookingMethod": "Cook pasta according to package instructions. While pasta is cooking, combine basil, Parmesan cheese, olive oil, and garlic in a food processor and blend until smooth. Drain pasta and toss with pesto sauce. Serve immediately.",
+        "ratings": 4.5,
+        "img": "https://i.ibb.co/F5MmgSb/food3.png"
+      },
+      {
+        "recipeName": "Margherita Pizza",
+        "ingredients": [
+          "1 pizza crust",
+          "1/2 cup tomato sauce",
+          "1 cup shredded mozzarella cheese",
+          "1/4 cup chopped fresh basil"
+        ],
+        "cookingMethod": "Preheat oven to 450°F. Spread tomato sauce over pizza crust. Top with mozzarella cheese and chopped basil. Bake for 10-12 minutes or until crust is golden brown.",
+        "ratings": 4.7,
+        "img": "https://i.ibb.co/CBcdvjk/food1.png"
+      },
+      {
+        "recipeName": "Tiramisu",
+        "ingredients": [
+          "1 cup heavy cream",
+          "1/4 cup sugar",
+          "1/4 cup espresso",
+          "1/4 cup Kahlua",
+          "1 cup mascarpone cheese",
+          "24 ladyfingers"
+        ],
+        "cookingMethod": "In a large bowl, beat heavy cream and sugar until stiff peaks form. In a separate bowl, combine espresso and Kahlua. Dip ladyfingers in espresso mixture and layer in a 9x13 inch dish. Spread mascarpone cheese over ladyfingers. Top with whipped cream. Chill for at least 2 hours before serving.",
+        "ratings": 4.9,
+        "img": "https://i.ibb.co/6Xzgzzd/food2.png"
+      }
+    ],
+    "likes": 56,
+    "picture": "https://i.ibb.co/HB6pdv0/chef-6.png",
+    "description": "Chef Charlie is a rising star in the culinary world, known for her creative and playful approach to cooking. She draws inspiration from a variety of global cuisines and loves to experiment with bold flavors and unexpected ingredient combinations."
   },
   {
     "id": 4,
-    "chefPicture": "https://example.com/chef4.jpg",
-    "chefName": "Sara Patel",
-    "yearsOfExperience": 5,
-    "numberOfRecipes": 30,
-    "likes": 4000,
-    "descriptionForFoods": "Chef Sara is a vegetarian and specializes in plant-based cuisine. Her dishes are colorful, flavorful, and packed with nutrients. Her roasted vegetable lasagna is a customer favorite."
+    "name": "Chef David",
+    "experience": 10,
+    "recipes": [
+      {
+        "recipeName": "Pesto Pasta",
+        "ingredients": [
+          "1 lb pasta",
+          "2 cups fresh basil leaves",
+          "1/2 cup grated Parmesan cheese",
+          "1/2 cup olive oil",
+          "3 cloves garlic"
+        ],
+        "cookingMethod": "Cook pasta according to package instructions. While pasta is cooking, combine basil, Parmesan cheese, olive oil, and garlic in a food processor and blend until smooth. Drain pasta and toss with pesto sauce. Serve immediately.",
+        "ratings": 4.5,
+        "img": "https://i.ibb.co/F5MmgSb/food3.png"
+      },
+      {
+        "recipeName": "Margherita Pizza",
+        "ingredients": [
+          "1 pizza crust",
+          "1/2 cup tomato sauce",
+          "1 cup shredded mozzarella cheese",
+          "1/4 cup chopped fresh basil"
+        ],
+        "cookingMethod": "Preheat oven to 450°F. Spread tomato sauce over pizza crust. Top with mozzarella cheese and chopped basil. Bake for 10-12 minutes or until crust is golden brown.",
+        "ratings": 4.7,
+        "img": "https://i.ibb.co/CBcdvjk/food1.png"
+      },
+      {
+        "recipeName": "Tiramisu",
+        "ingredients": [
+          "1 cup heavy cream",
+          "1/4 cup sugar",
+          "1/4 cup espresso",
+          "1/4 cup Kahlua",
+          "1 cup mascarpone cheese",
+          "24 ladyfingers"
+        ],
+        "cookingMethod": "In a large bowl, beat heavy cream and sugar until stiff peaks form. In a separate bowl, combine espresso and Kahlua. Dip ladyfingers in espresso mixture and layer in a 9x13 inch dish. Spread mascarpone cheese over ladyfingers. Top with whipped cream. Chill for at least 2 hours before serving.",
+        "ratings": 4.9,
+        "img": "https://i.ibb.co/6Xzgzzd/food2.png"
+      }
+    ],
+    "likes": 182,
+    "picture": "https://i.ibb.co/hY6GgBQ/chef-1.png",
+    "description": "Chef David is a passionate advocate for sustainable, locally-sourced food. He works closely with farmers and producers to ensure that his ingredients are of the highest quality and has a particular talent for creating simple, elegant dishes that allow the flavors of the ingredients to shine."
   },
   {
     "id": 5,
-    "chefPicture": "https://example.com/chef5.jpg",
-    "chefName": "Alex Kim",
-    "yearsOfExperience": 12,
-    "numberOfRecipes": 60,
-    "likes": 5500,
-    "descriptionForFoods": "Chef Alex is a sushi master, with over a decade of experience working in top sushi restaurants around the world. His omakase is a work of art, featuring the freshest fish and most creative flavor combinations."
+    "name": "Chef Emily",
+    "experience": 3,
+    "recipes": [
+      {
+        "recipeName": "Pesto Pasta",
+        "ingredients": [
+          "1 lb pasta",
+          "2 cups fresh basil leaves",
+          "1/2 cup grated Parmesan cheese",
+          "1/2 cup olive oil",
+          "3 cloves garlic"
+        ],
+        "cookingMethod": "Cook pasta according to package instructions. While pasta is cooking, combine basil, Parmesan cheese, olive oil, and garlic in a food processor and blend until smooth. Drain pasta and toss with pesto sauce. Serve immediately.",
+        "ratings": 4.5,
+        "img": "https://i.ibb.co/F5MmgSb/food3.png"
+      },
+      {
+        "recipeName": "Margherita Pizza",
+        "ingredients": [
+          "1 pizza crust",
+          "1/2 cup tomato sauce",
+          "1 cup shredded mozzarella cheese",
+          "1/4 cup chopped fresh basil"
+        ],
+        "cookingMethod": "Preheat oven to 450°F. Spread tomato sauce over pizza crust. Top with mozzarella cheese and chopped basil. Bake for 10-12 minutes or until crust is golden brown.",
+        "ratings": 4.7,
+        "img": "https://i.ibb.co/CBcdvjk/food1.png"
+      },
+      {
+        "recipeName": "Tiramisu",
+        "ingredients": [
+          "1 cup heavy cream",
+          "1/4 cup sugar",
+          "1/4 cup espresso",
+          "1/4 cup Kahlua",
+          "1 cup mascarpone cheese",
+          "24 ladyfingers"
+        ],
+        "cookingMethod": "In a large bowl, beat heavy cream and sugar until stiff peaks form. In a separate bowl, combine espresso and Kahlua. Dip ladyfingers in espresso mixture and layer in a 9x13 inch dish. Spread mascarpone cheese over ladyfingers. Top with whipped cream. Chill for at least 2 hours before serving.",
+        "ratings": 4.9,
+        "img": "https://i.ibb.co/6Xzgzzd/food2.png"
+      }
+    ],
+    "likes": 34,
+    "picture": "https://i.ibb.co/L9c2Ymk/chef-2.png",
+    "description": "Chef Emily is a young and ambitious chef who is constantly pushing the boundaries of traditional cooking. She loves to experiment with new techniques and ingredients, and is always on the lookout for innovative ways to showcase the flavors of her dishes."
   },
   {
     "id": 6,
-    "chefPicture": "https://example.com/chef6.jpg",
-    "chefName": "Maria Hernandez",
-    "yearsOfExperience": 7,
-    "numberOfRecipes": 35,
-    "likes": 4200,
-    "descriptionForFoods": "Chef Maria is a pastry chef who specializes in French desserts. Her macarons are delicate and delicious, and her chocolate croissants are a morning staple for many of her customers."
+    "name": "Chef Frank",
+    "experience": 6,
+    "recipes": [
+      {
+        "recipeName": "Pesto Pasta",
+        "ingredients": [
+          "1 lb pasta",
+          "2 cups fresh basil leaves",
+          "1/2 cup grated Parmesan cheese",
+          "1/2 cup olive oil",
+          "3 cloves garlic"
+        ],
+        "cookingMethod": "Cook pasta according to package instructions. While pasta is cooking, combine basil, Parmesan cheese, olive oil, and garlic in a food processor and blend until smooth. Drain pasta and toss with pesto sauce. Serve immediately.",
+        "ratings": 4.5,
+        "img": "https://i.ibb.co/F5MmgSb/food3.png"
+      },
+      {
+        "recipeName": "Margherita Pizza",
+        "ingredients": [
+          "1 pizza crust",
+          "1/2 cup tomato sauce",
+          "1 cup shredded mozzarella cheese",
+          "1/4 cup chopped fresh basil"
+        ],
+        "cookingMethod": "Preheat oven to 450°F. Spread tomato sauce over pizza crust. Top with mozzarella cheese and chopped basil. Bake for 10-12 minutes or until crust is golden brown.",
+        "ratings": 4.7,
+        "img": "https://i.ibb.co/CBcdvjk/food1.png"
+      },
+      {
+        "recipeName": "Tiramisu",
+        "ingredients": [
+          "1 cup heavy cream",
+          "1/4 cup sugar",
+          "1/4 cup espresso",
+          "1/4 cup Kahlua",
+          "1 cup mascarpone cheese",
+          "24 ladyfingers"
+        ],
+        "cookingMethod": "In a large bowl, beat heavy cream and sugar until stiff peaks form. In a separate bowl, combine espresso and Kahlua. Dip ladyfingers in espresso mixture and layer in a 9x13 inch dish. Spread mascarpone cheese over ladyfingers. Top with whipped cream. Chill for at least 2 hours before serving.",
+        "ratings": 4.9,
+        "img": "https://i.ibb.co/6Xzgzzd/food2.png"
+      }
+    ],
+    "likes": 98,
+    "picture": "https://i.ibb.co/TTMwjfG/chef-3.png",
+    "description": "Chef Frank is a classically trained chef with a passion for creating comforting, hearty dishes that are full of flavor. He draws inspiration from his Italian heritage and is known for his handmade pastas and slow-cooked stews."
   }
 ]
